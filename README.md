@@ -13,8 +13,6 @@
 ### Support for Non-Orbital and Orbital Scenarios:
 - Keep the architecture agnostic to specific transmitter/receiver platforms, allowing for scenarios with or without orbital dynamics.
 
----
-
 ## 2. Core Functional Modules
 
 ### a. Transmitter Module
@@ -30,8 +28,6 @@
 #### Multiplicity:
 - Support multiple transmitters operating simultaneously with independent or synchronized configurations.
 
----
-
 ### b. Reflection/Scattering Module
 
 #### Reflection Models:
@@ -43,8 +39,6 @@
 
 #### Multi-Pass and Angular Variability:
 - Simulate multi-pass reflections over the same geographic location, allowing for varying incidence and reflection angles.
-
----
 
 ### c. Receiver Module
 
@@ -59,8 +53,6 @@
 #### Backend Processing:
 - Enable customization of backend signal processing (e.g., delay lines, filtering pipelines, multi-path handling).
 - Ensure all processing culminates in high-fidelity bitstream generation.
-
----
 
 ## 3. Simulation Workflow and Data Flow
 
@@ -85,8 +77,6 @@
 ### Intermediate State Outputs:
 - Provide optional outputs for intermediate results (e.g., specular points, link budgets) to enable analysis and debugging.
 
----
-
 ## 4. Abstraction and Encapsulation
 
 ### Unified Interfaces:
@@ -94,8 +84,6 @@
 
 ### Configurable Abstractions:
 - Abstract platform-specific details (e.g., stationary vs. mobile transmitters, airborne vs. orbital receivers) to ensure flexibility.
-
----
 
 ## 5. Computational Performance
 
@@ -111,8 +99,6 @@
 ### Resource Optimization:
 - Optimize memory usage and computational resources to handle large-scale simulations efficiently.
 
----
-
 ## 6. Generic Platform Support
 
 ### Support for Non-Orbital Scenarios:
@@ -123,7 +109,7 @@
   - Ephemeris-based or dynamically computed trajectories.
   - Perturbations (e.g., drag, solar pressure) when orbital scenarios are active.
 
-
+---
 
 generic SoOp simuator that's focused on the what if's. It's moduler
 
